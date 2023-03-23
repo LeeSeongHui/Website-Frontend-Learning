@@ -17,4 +17,13 @@ Java 개발자 과정 Front-end Repository
     - HTML 5 입력태그
     - CSS 3 기본
     - CSS 3 고급
+
+## 3일차
+- HTML 5 학습
+    - CSS 3 고급
+    - HTML 레이아웃
+    - 반응형 웹
+
+3일차 레이아웃
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/layout.png" width="600">
     
