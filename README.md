@@ -25,5 +25,6 @@ Java 개발자 과정 Front-end Repository
     - 반응형 웹
 
 3일차 레이아웃
+
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/layout.png" width="600">
     
