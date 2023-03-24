@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>자바스크립트 함수</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        // 익명함수(익명 함수는 재사용 하지 않는, 한번만 사용할 함수를 위한 개념으로, 따로 함수의 이름을 갖지 않는다.)
+        var fnc = function () {
+            alert('fnc1');
+            console.log('fnc1 출력');
+        }
+
+        alert(fnc);
+        fnc();
+
+        // 일반함수(일반적으로 다른 언어에서 사용하는 함수와 동일하다.)
+        function fnc2() {
+            alert('fnc2');
+            console.log('fnc2 출력');
+        }
+
+        alert(fnc2);
+        fnc2();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

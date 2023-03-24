@@ -40,6 +40,6 @@ Java 개발자 과정 Front-end Repository
 
 ## 5일차
 - 프론트엔드 학습
-    - Javascript 마무리
+    - js/jQuery 연동
     - Bootstrap 학습
     - 포토폴리오 웹사이트 만들기    
