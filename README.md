@@ -38,10 +38,6 @@ Java 개발자 과정 Front-end Repository
 
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery01.png" width="600">
 
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery02.png" width="600">
-
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery03.png" width="600">
-
 ## 5일차
 - 프론트엔드 학습
     - Javascript 마무리
