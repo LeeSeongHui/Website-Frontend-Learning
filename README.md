@@ -27,4 +27,23 @@ Java 개발자 과정 Front-end Repository
 3일차 레이아웃
 
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/layout.png" width="600">
-    
+
+## 4일차
+- 프론트엔드 학습
+    - Grid 에리아웃
+    - 반응형 웹
+    - Javascript 기초
+
+4일차 그리드레이아웃 포토갤러리
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery01.png" width="600">
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery02.png" width="600">
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/gallery03.png" width="600">
+
+## 5일차
+- 프론트엔드 학습
+    - Javascript 마무리
+    - Bootstrap 학습
+    - 포토폴리오 웹사이트 만들기    
