@@ -47,4 +47,7 @@ Java 개발자 과정 Front-end Repository
 ## 6일차
 - 프로트엔드 학습
     - Bootstrap Album example 마무리
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/album_theme.png" width="600">
+
     - 포토폴리오 웹사이트 만들기
