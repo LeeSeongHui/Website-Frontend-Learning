@@ -66,7 +66,7 @@ Java 개발자 과정 Front-end Repository
     - Single Page Template
         -Bootstrap
 
-7일차 핀터레스트 스타일 클로닝
+핀터레스트 스타일 클로닝
 
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio1.png" width="700">
 
@@ -78,4 +78,8 @@ Parallax Scrolling Web
 - 프론트엔드 학습
     - Single Page Template
     - SB Admin Page
+
+Grayscale Single Page Template
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio3.png" width="700">
     

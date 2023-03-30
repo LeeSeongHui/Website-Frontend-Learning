@@ -22,6 +22,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src='script/singlepage.js'></script>
+    <script>
+        $(document).ready(function () {
+            // 화면을 스크롤 다운하면
+            // 메뉴바가 색상이 흰색으로 변경
+            var navbarShrink = () => {
+                const mainNav = $('#mainNav');
+                if (!mainNav) {
+                    return;
+                }
+
+                if (window.scrollY === 0) 
+                    mainNav.removeClass('navbar-shrink');      
+                else 
+                    mainNav.addClass('navbar-shrink');
+            }
+
+            navbarShrink();
+            $(document).scroll(function () {
+                navbarShrink();
+            });
+
+            // 실패 동작안함!
+            // const navbarToggler = $('.navbar-toggler');
+            // const resNavItems = [].slice.call(
+            //     document.querySelectorAll('#navbarResponsive .nav-link')
+            // );
+            // resNavItems.map(function (resNaveItem) {
+            //     resNaveItem.addEventListener('click', () => {
+            //         if (window.getComputedStyle(navbarToggler).display !== 'none'){
+            //             navbarToggler.click();
+            //         }
+            //     });
+            // });           
+        });
+    </script>
 </head>
 <body id="page-top">
     <!-- 내비게이션 영역 -->
@@ -48,8 +83,8 @@
         <div class="container px-4 d-flex h-100 justify-content-center align-items-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Grayscale Website</h1>
-                    <h2 class="text-gray-50 mx-auto mt-2 mb-5">responsive single page Bootstrap site</h2>
+                    <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">responsive single page Bootstrap site</h2>
                     <a href="#" class="btn btn-primary shadow-sm">Get Started</a>
                 </div>
             </div>
@@ -60,8 +95,8 @@
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-8">
-                    <h2 class="text-gray mb-4">About single page website</h2>
-                    <p class="text-gray-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                    <h2 class="text-white mb-4">About single page website</h2>
+                    <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
                         <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
                         The theme is open source, and you can use it for any purpose, personal or commercial.</p>                
                 </div>
@@ -73,19 +108,19 @@
     <section id="portfolio" class="portfolios-section bg-light">
         <div class="container px-4">
             <!-- 1st row 영역 -->
-            <div class="row align-items-center">
+            <div class="row align-items-center gx-0 mb-4">
                 <div class="col-8">
                     <img src="images/bg-masthead.jpg" class="img-fluid mb-3">
                 </div>
                 <div class="col-4">
                     <div class="featured-text text-center">
                         <h4>Shoreline</h4>                            
-                    <p>Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                    <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
                     </div> 
                 </div>
             </div>
             <!-- 2nd row -->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center gx-0">
                 <div class="col-6">
                     <img src="images/demo-image-01.jpg" class="img-fluid">
                 </div>
@@ -101,7 +136,7 @@
                 </div>
             </diV>
             <!-- 3rd row -->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center gx-0">
                 <div class="col-6">
                     <img src="images/demo-image-02.jpg" class="img-fluid">
                 </div>
