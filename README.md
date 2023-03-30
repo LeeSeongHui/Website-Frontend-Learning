@@ -67,9 +67,11 @@ Java 개발자 과정 Front-end Repository
         -Bootstrap
 
 7일차 핀터레스트 스타일 클로닝
+
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio1.png" width="700">
 
 Parallax Scrolling Web
+
 <img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio2.png" width="700">
 
 ## 8일차
