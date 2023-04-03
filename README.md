@@ -91,16 +91,20 @@ Grayscale Single Page Template
 
 SB Admin Page 중간단계
 
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio4_middle.png?raw=true" width="700">
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio4_middle.png" width="700">
 
 ## 10일차
 - 프론트엔드 실습
     - SB Admin Page 마무리
+        - [simple-datatables.js](https://github.com/fiduswriter/simple-datatables)
+
+SB Admin Page 마무리
+
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio4_last.png" width="700">
 
 ## 11일차
 - 프론트엔드 실습
-    -
 
 ## 12일차
 - 프론트엔드 실습
-    -    
+    
