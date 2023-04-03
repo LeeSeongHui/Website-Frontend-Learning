@@ -39,10 +39,12 @@
             }
 
             navbarShrink();
+
             $(document).scroll(function () {
                 navbarShrink();
             });
 
+            // Collapse responsive navbar when toggler is visible
             // 실패 동작안함!
             // const navbarToggler = $('.navbar-toggler');
             // const resNavItems = [].slice.call(
@@ -56,6 +58,9 @@
             //     });
             // });   
             
+            
+            /*
+            // 메뉴버튼 클릭시에만 active 
             $('#menu_about').click(function () {
                 $(this).addClass('active');
                 $('#menu_portfolio').removeClass('active');
@@ -71,6 +76,38 @@
                 $('#menu_portfolio').removeClass('active');
                 $('#menu_about').removeClass('active');   
             });
+            */
+
+            // 메뉴버튼 클릭 외 스크롤시에도 active 
+            if($(this.window).offset()) {
+
+                $(window).scroll(function () {
+                    masthead = $('.masthead').offset().top;
+                    about = $('#about').offset().top-250;
+                    portfolio = $('#portfolio').offset().top-75;
+                    signup = $("#signup").offset().top-100;
+            
+                    var scroll = $(window).scrollTop();
+                    console.log(scroll);
+                    if (scroll < about) {
+                        $('#menu-about').removeClass('active');
+                    }
+                    else if (scroll >= about && scroll < portfolio) {
+                        $('#menu-about').addClass('active');
+                        $('#menu-portfolio').removeClass('active');
+                    }
+                    else if (scroll >= portfolio && scroll < signup) {
+                        $('#menu-portfolio').addClass('active');
+                        $('#menu-signup').removeClass('active');
+                        $('#menu-about').removeClass('active');
+                    }
+                    else if (scroll >= signup) {
+                        $('#menu-signup').addClass('active');
+                        $('#menu-portfolio').removeClass('active');
+                    }
+                });
+
+            }
 
         });
     </script>
