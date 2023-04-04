@@ -1,4 +1,4 @@
-/*
+
 var slides = document.querySelectorAll("#slides > img");
 var prev = document.getElementById("prev");
 var next = document.getElementById("next");
@@ -27,11 +27,13 @@ function nextSlide() {
     else current = 0;
     showSlides(current);  
 }
-*/
+
+
 
 /*****************************************/
 /* 이미지 쇼를 자동으로 바꾸는 방법 p.38 */ 
 /*****************************************/
+/*
 var current = 0;
 showSlides(); // 기본 첫 번째 이미지를 보여 줌
 
@@ -46,4 +48,4 @@ function showSlides() {
     slides[current - 1 ].style.display = "block"; // 현재 위치 이미지 표시
     setTimeout(showSlides, 2000); // 2초마다 showSlides()함수를 반복 실행
 }
-
+*/
