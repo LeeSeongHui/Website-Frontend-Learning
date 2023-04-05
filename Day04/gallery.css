@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*테두리를 기준으로 크기를 정한다*/
 }
 
 body {

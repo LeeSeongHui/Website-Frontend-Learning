@@ -1,6 +1,7 @@
-.container {
-    
+.container > p {
+    margin: 10px;
 }
-#test {
+#test p{
     margin-left: 15px;
+    padding-left: 15px;
 }
