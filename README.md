@@ -51,7 +51,7 @@ Java 개발자 과정 Front-end Repository
 
 6일차 Bootstrap 앨범 클로닝
     
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/album_theme.png" width="600">
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/album_theme.gif" width="600">
 
 
 ## 7일차
@@ -68,11 +68,11 @@ Java 개발자 과정 Front-end Repository
 
 핀터레스트 스타일 클로닝
 
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio1.png" width="700">
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio1.gif" width="700">
 
 Parallax Scrolling Web
 
-<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio2.png" width="700">
+<img src="https://github.com/LeeSeongHui/basic-html-2023/blob/main/image/portfolio2.gif" width="700">
 
 ## 8일차
 - 프론트엔드 학습
