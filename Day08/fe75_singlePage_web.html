@@ -42,23 +42,7 @@
 
             $(document).scroll(function () {
                 navbarShrink();
-            });
-
-            // Collapse responsive navbar when toggler is visible
-            // 실패 동작안함!
-            // const navbarToggler = $('.navbar-toggler');
-            // const resNavItems = [].slice.call(
-            //     document.querySelectorAll('#navbarResponsive .nav-link')
-            // );
-            // resNavItems.map(function (resNaveItem) {
-            //     resNaveItem.addEventListener('click', () => {
-            //         if (window.getComputedStyle(navbarToggler).display !== 'none'){
-            //             navbarToggler.click();
-            //         }
-            //     });
-            // });   
-            
-            
+            });            
             
             // 메뉴버튼 클릭시에만 active 
             // $('#menu_about').click(function () {
@@ -89,7 +73,7 @@
                 masthead = $('.masterHead').offset().top;
                 about = $('#about').offset().top-250;
                 portfolio = $('#portfolio').offset().top-75;
-                signup = $("#signup").offset().top-100;
+                contact = $("#signup").offset().top-100;
 
                 var scroll = $(window).scrollTop();
                 console.log(scroll);
@@ -99,15 +83,15 @@
                 else if (scroll >= about && scroll < portfolio) {
                     $('#menu_about').addClass('active');
                     $('#menu_portfolio').removeClass('active');
-                    $('#menu_signup').removeClass('active');
+                    $('#menu_contact').removeClass('active');
                 }
-                else if (scroll >= portfolio && scroll < signup) {
+                else if (scroll >= portfolio && scroll < contact) {
                     $('#menu_portfolio').addClass('active');
-                    $('#menu_signup').removeClass('active');
+                    $('#menu_contact').removeClass('active');
                     $('#menu_about').removeClass('active');
                 }
-                else if (scroll >= signup) {
-                    $('#menu_signup').addClass('active');
+                else if (scroll >= contact) {
+                    $('#menu_contact').addClass('active');
                     $('#menu_portfolio').removeClass('active');
                     $('#menu_about').removeClass('active');
                 }
